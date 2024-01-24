@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    height: 98px;
+    align-items: center;
+}
+
+ul>li>img[alt="ultra-edit-logo"] {
+    margin: 2px;
+}
+
+.second-child {
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-btn {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+.main-container {
+    margin: 40px auto;
+    width: 65%;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.heading {
+    margin: 20px 0;
+}
+
+#review-image {
+    margin-left: 10px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3em;
+}
+
+h1>span {
+    font-weight: 700;
+}
+
+.small-desc>p {
+    font-size: 24px;
+}
+
+.download-btn>button {
+    padding: 14px 20px !important;
+    background-color: #00b6d1;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.download-ue {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+.download-ue>p>span {
+    font-size: small;
+}
+
+.download-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    gap: 20px;
+}
+
+/* Card Design */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 20px 30px 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card>h2 {
+    padding: 8px 0;
+    padding-bottom: 4px;
+    font-size: 1.3em;
+}
+
+.card>p {
+    padding: 5px;
+    font-size: .8em;
+    font-weight: 400;
+}
+
+.card>.button {
+    margin-top: 15px;
+    font-size: .8em;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px !important;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.blue {
+    background-color: #00b6d1;
+}
+
+.above-footer {
+    background-color: #222222;
+    color: #FFF;
+}
+
+#section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    max-width: 61vw;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.ultra-edit-nl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+}
+
+.submit-email {
+    background-color: #FFFFFF;
+    padding: 30px 35px 40px 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.submit-email p {
+    color: black;
+    font-size: .88rem;
+}
+
+.join-ue h2 {
+    margin-bottom: 10px;
+}
+
+.submit-email input {
+    padding: 15px 10px;
+    width: 260px;
+    border: 1px solid #ececec;
+}
+
+.submit-email button {
+    padding: 15px 10px;
+    width: 260px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #00b6d1;
+    font-size: 1rem;
+    box-shadow: 0 12px 18px -6px rgb(77 170 242 / 37%);
+}
+
+.subscribe {
+    color: #00b6d1;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.about-free-trial {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-free-trial>.big-text {
+    font-size: 1.5rem;
+}
+
+.about-free-trial a {
+    color: #00b6d1;
+    text-decoration: none;
+}
+
+.footer-panel-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer {
+    max-width: 65vw;
+    margin: 100px auto 60px auto;
+}
+
+.column-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-items .footer-head {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.column-items a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.88rem;
+    margin-bottom: 5px;
+}
+
+.get-email-footer p {
+    font-size: 0.88rem;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.get-email-footer {
+    width: 90%;
+}
+
+.get-email-footer button,
+.get-email-footer input {
+    align-self: center;
+    width: 100%;
+}
+
+.get-email-footer input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ececec;
+}
+
+.get-email-footer button {
+    padding: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    background-color: #00b6d1;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.footer-panel-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.follow-on {
+    display: flex;
+    gap: 15px;
+}
+
+.follow-on svg:hover {
+    transition: transform 0.35s;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.footer-panel-3 {
+    font-size: 0.74rem;
+    padding: 15px 0;
+}
+
+.blue:hover {
+    transition: background-color .3s;
+    background-color: #09a6bd;
+}
+
+.green:hover {
+    transition: background-color .3s;
+    background-color: #81c780;
+}
+
+@media screen and (max-width: 1222px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .menu > svg:hover {
+        transition: all 0.1s;
+        border: 2px solid #404040;
+        box-sizing: content-box;
+        padding: 2px;
+    }
+
+    .second-child {
+        display: none;
+    }
+
+    .download-section {
+        grid-template-columns: 1fr;
+    }
+
+    #section {
+        max-width: 90vw;
+    }
+
+    .ultra-edit-nl {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-panel-1 {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .footer-panel-2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-panel-3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer {
+        max-width: 90vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .nav-container {
+        width: 90%;
+    }
+}
